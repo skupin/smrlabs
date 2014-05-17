@@ -8,7 +8,7 @@
 Spree.config do |config|
   # Example:
   config.admin_interface_logo = 'logos/company.png'
-  config.logo = 'logos/company.png'"
+  config.logo = 'logos/company.png'
 end
 
 Spree.user_class = "Spree::User"
