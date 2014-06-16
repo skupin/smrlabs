@@ -6,6 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
 module Smrlabs
   class Application < Rails::Application
     
@@ -20,6 +21,8 @@ module Smrlabs
         Rails.configuration.cache_classes ? require(c) : load(c)
       end
     end
+    
+    config.assets.initialize_on_precompile = false
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -34,3 +37,5 @@ module Smrlabs
     # config.i18n.default_locale = :de
   end
 end
+
+
