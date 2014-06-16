@@ -55,3 +55,5 @@ gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git
 
 gem 'spree-bank-transfer', '~> 2.2.5'
 
+gem 'rmagick', '~> 2.13.2'
+
