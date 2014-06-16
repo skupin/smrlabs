@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/spree/spree_auth_devise.git
-  revision: 4959656be98742249f85879207a606e05d622cc6
+  revision: 81a0fbb2db15efbbb50d0d139bbc41aee7fa58a1
   branch: 2-2-stable
   specs:
     spree_auth_devise (2.2.0)
@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/spree/spree_gateway.git
-  revision: 46b8610fd1db198410542374536c7cb17263b1a3
+  revision: ea9dd046848523c79845abbd5462f5e13941276e
   branch: 2-2-stable
   specs:
     spree_gateway (2.2.1)
@@ -31,7 +31,7 @@ GEM
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    active_utils (2.1.1)
+    active_utils (2.2.1)
       activesupport (>= 2.3.11)
       i18n
     activemerchant (1.42.9)
@@ -82,7 +82,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    colorize (0.7.2)
+    colorize (0.7.3)
     deface (1.0.0)
       colorize (>= 0.5.8)
       nokogiri (~> 1.6.0)
@@ -96,7 +96,7 @@ GEM
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
     erubis (2.7.0)
-    execjs (2.0.2)
+    execjs (2.2.0)
     ffaker (1.24.0)
     font-awesome-rails (4.1.0.0)
       railties (>= 3.2, < 5.0)
@@ -130,7 +130,7 @@ GEM
       money (~> 6.1.0.beta1)
     money (6.1.1)
       i18n (~> 0.6.4)
-    multi_json (1.10.0)
+    multi_json (1.10.1)
     multi_xml (0.5.5)
     nokogiri (1.6.2.1)
       mini_portile (= 0.6.0)
@@ -146,7 +146,7 @@ GEM
     pg (0.17.1)
     polyamorous (0.6.4)
       activerecord (>= 3.0)
-    polyglot (0.3.4)
+    polyglot (0.3.5)
     rabl (0.9.3)
       activesupport (>= 2.3.14)
     rack (1.5.2)
@@ -196,6 +196,8 @@ GEM
       spree_core (= 2.2.2)
       spree_frontend (= 2.2.2)
       spree_sample (= 2.2.2)
+    spree-bank-transfer (2.2.5)
+      spree_core (~> 2.2.0)
     spree_api (2.2.2)
       rabl (= 0.9.3)
       spree_core (= 2.2.2)
@@ -250,7 +252,7 @@ GEM
     state_machine (1.2.0)
     stringex (1.5.1)
     thor (0.19.1)
-    thread_safe (0.3.3)
+    thread_safe (0.3.4)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
@@ -259,7 +261,7 @@ GEM
     turbolinks (2.2.2)
       coffee-rails
     tzinfo (0.3.39)
-    uglifier (2.5.0)
+    uglifier (2.5.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     uuidtools (2.1.4)
@@ -284,6 +286,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.2)
   sdoc
   spree (= 2.2.2)
+  spree-bank-transfer (~> 2.2.5)
   spree_auth_devise!
   spree_gateway!
   turbolinks
